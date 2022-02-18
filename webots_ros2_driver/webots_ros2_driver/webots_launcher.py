@@ -77,7 +77,7 @@ class WebotsLauncher(ExecuteProcess):
                 no_sandbox,
                 minimize,
                 world,
-                '--batch',
+                '--batch', '--stream',
                 ['--mode=', mode],
             ],
             **kwargs
